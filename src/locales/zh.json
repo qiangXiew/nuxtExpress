@@ -1,0 +1,119 @@
+{
+    "links": {
+        "home": "主页",
+        "about": "关于我们",
+        "english": "英文版",
+        "chinese": "中文版"
+    },
+    "home": {
+        "title": "欢迎来到首页",
+        "introduction": "这是首页介绍。"
+    },
+    "about": {
+        "title": "关于我们",
+        "introduction": "这是关于我们介绍"
+    },
+    "footer": {
+        "list-1-title": "客户服务",
+        "list-1-1": "费率",
+        "list-1-2": "常见问题",
+        "list-1-3": "用户协议",
+        "list-2-title": "下载支持",
+        "list-2-1": "API文档",
+        "list-2-2": "APP下载",
+        "list-2-3": "其它下载",
+        "list-3-title": "关于",
+        "list-3-1": "上币申请",
+        "list-4-title": "联系我们",
+        "list-4-1": "客服邮箱：",
+        "list-4-2": "意见反馈："
+    },
+    "nva": {
+        "list-1": "首页",
+        "list-2": "交易中心",
+        "list-3": "C2C交易",
+        "list-4": "安全中心",
+        "list-5": "财富中心",
+        "list-6": "登录",
+        "list-7": "注册",
+        "list-8": "退出"
+    },
+    "index": {
+        "news-tab-1": "官方公告",
+        "news-tab-2": "新闻资讯",
+        "news-tab-details": "查看更多"
+    },
+    "security": {
+        "config": {
+            "title": "安全配置",
+            "content": {
+                "intru-1": "欢迎登录",
+                "intru-2-0": "如果您要提币，请先实名认证。",
+                "intru-2-1": "您的认证等级为C1级，如果想提升额度，请进行高级认证。",
+                "intru-2-2": "如果您要提币，请先实名认证。",
+                "intru-2-3": "您的认证等级为C2级，如果想提升额度，请进行视频认证。",
+                "intru-2-4": "您已完成全部认证。",
+                "intru-3": "立即认证",
+                "intru-4": "查看提现额度",
+                "showdata-1": "已设置",
+                "showdata-2": "未设置",
+                "showdata-3": "立即设置",
+                "showdata-4": "修改"
+            }
+        },
+        "authentication": {
+            "title": "实名认证",
+            "content": {}
+        },
+        "phone": {
+            "title": "手机认证",
+            "content": {}
+        },
+        "email": {
+            "title": "邮箱认证",
+            "content": {}
+        },
+        "login_password": {
+            "title": "登录密码",
+            "content": {}
+        },
+        "trade_password": {
+            "title": "资金密码",
+            "content": {}
+        },
+        "verification": {
+            "title": "谷歌验证",
+            "content": {}
+        },
+        "history": {
+            "title": "登录历史",
+            "content": {}
+        }
+    },
+    "financial": {
+        "account": {
+            "title": "账户资产",
+            "content": {}
+        },
+        "deposit": {
+            "title": "充币",
+            "content": {}
+        },
+        "withdraw": {
+            "title": "提币",
+            "content": {}
+        },
+        "funds": {
+            "title": "地址管理",
+            "content": {}
+        },
+        "record": {
+            "title": "交易记录",
+            "content": {}
+        },
+        "collection": {
+            "title": "收款账户",
+            "content": {}
+        }
+    }
+}

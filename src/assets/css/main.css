@@ -1,0 +1,79 @@
+html, body
+{
+  /* background-color: #fff; */
+  background-color: #f3f3f3;
+  color:#606266;
+  letter-spacing: 0.5px;
+  /* font-family: "Source Sans Pro", Arial, sans-serif; */
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+dd, dl, dt, h1, h2, h3, h4, h5, h6, img, li, p, strong, ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+}
+
+a, a:hover, a:focus, a:visited
+{
+  color: #000;
+}
+li{
+  list-style: none;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 289px;
+}
+i.icon{
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 22px;
+  vertical-align: middle;
+}
+/* 页面内容宽度配置 */
+.body-main{
+  width: 62.5%;
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/*中性色用于文本、背景和边框颜色。通过运用不同的中性色，来表现层次结构。
+  1. 主要、2.常规、3.次要、4.占位
+*/
+.text-color-1{color:#303133} 
+.text-color-2{color:#606266}
+.text-color-3{color:#909399}
+.text-color-4{color:#C0C4CC}
+
+.border-color-1{color:#DCDFE6}
+.border-color-2{color:#E4E7ED}
+.border-color-3{color:#EBEEF5}
+.border-color-4{color:#F2F6FC}
+
+/* 组件切换过度特效 */
+.page-enter-active, .page-leave-active {
+  transition: opacity,transform .4s;
+}
+.page-enter, .page-leave-active {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+
+/* button 样式初始化 */
+.el-button.el-button--primary.btn{
+  margin: 0px auto;
+  display: block;
+  min-width: 150px;
+}
+/* 粒子特效画布样式 */
+.effects {
+  height: 100%;
+}

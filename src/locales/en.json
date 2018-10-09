@@ -1,0 +1,119 @@
+{
+    "links": {
+        "home": "Home",
+        "about": "About",
+        "english": "English version",
+        "french": "French version"
+    },
+    "home": {
+        "title": "Welcome",
+        "introduction": "This is an introduction in English."
+    },
+    "about": {
+        "title": "About",
+        "introduction": "This page is made to give you more informations."
+    },
+    "footer": {
+        "list-1-title": "Customer Service",
+        "list-1-1": "Fees",
+        "list-1-2": "FAQ",
+        "list-1-3": "Terms of Use",
+        "list-2-title": "Download",
+        "list-2-1": "API Doc",
+        "list-2-2": "APP Download",
+        "list-2-3": "Other Downloads",
+        "list-3-title": "About",
+        "list-3-1": "Apply to list",
+        "list-4-title": "Contact Us",
+        "list-4-1": "Help & Learning：",
+        "list-4-2": "Suggestion & Feedback："
+    },
+    "nva": {
+        "list-1": "Home",
+        "list-2": "Exchange",
+        "list-3": "C2C",
+        "list-4": "Security",
+        "list-5": "Finance",
+        "list-6": "Log In",
+        "list-7": "Sign Up",
+        "list-8": "Logout"
+    },
+    "index": {
+        "news-tab-1": "Announcement",
+        "news-tab-2": "News",
+        "news-tab-details": "more"
+    },
+    "security": {
+        "config": {
+            "title": "Security Settings",
+            "content": {
+                "intru-1": "Welcome",
+                "intru-2-0": "Verify first before withdrawing",
+                "intru-2-1": "Your current level is C1. If you want to raise it , you need to complete the advanced verification.",
+                "intru-2-2": "Verify first before withdrawing",
+                "intru-2-3": "Your current level is C2. If you want to raise it , you need to complete the video verification.",
+                "intru-2-4": "You have finfished it",
+                "intru-3": "Verify Now",
+                "intru-4": "Already? Check your withdrawal limits",
+                "showdata-1": "Unset",
+                "showdata-2": "Not set",
+                "showdata-3": "Set Now",
+                "showdata-4": "Modify"
+            }
+        },
+        "authentication": {
+            "title": "KYC",
+            "content": {}
+        },
+        "phone": {
+            "title": "SMS Setup",
+            "content": {}
+        },
+        "email": {
+            "title": "Email Steup",
+            "content": {}
+        },
+        "login_password": {
+            "title": "Login Password",
+            "content": {}
+        },
+        "trade_password": {
+            "title": "Transaction password",
+            "content": {}
+        },
+        "verification": {
+            "title": "Google Authentication",
+            "content": {}
+        },
+        "history": {
+            "title": "Login History",
+            "content": {}
+        }
+    },
+    "financial": {
+        "account": {
+            "title": "Asset",
+            "content": {}
+        },
+        "deposit": {
+            "title": "Deposit",
+            "content": {}
+        },
+        "withdraw": {
+            "title": "Withdraw",
+            "content": {}
+        },
+        "funds": {
+            "title": "Address",
+            "content": {}
+        },
+        "record": {
+            "title": "Transaction Record",
+            "content": {}
+        },
+        "collection": {
+            "title": "Collect account",
+            "content": {}
+        }
+    }
+}
