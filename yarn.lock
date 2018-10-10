@@ -3476,6 +3476,10 @@ jade@^1.11.0:
     void-elements "~2.0.1"
     with "~4.0.0"
 
+jquery@^3.3.1:
+  version "3.3.1"
+  resolved "http://registry.npm.taobao.org/jquery/download/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
 js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -3601,6 +3605,10 @@ kind-of@^4.0.0:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
   dependencies:
     is-buffer "^1.1.5"
+
+kline@^1.1.8:
+  version "1.1.8"
+  resolved "http://registry.npm.taobao.org/kline/download/kline-1.1.8.tgz#01fe5a150f603397022a24f8db14195418416ba8"
 
 latest-version@^1.0.0:
   version "1.0.1"

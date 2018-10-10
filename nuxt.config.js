@@ -23,7 +23,8 @@ module.exports = {
   ** Add axios globally
   */
   build: {
-    vendor: ['axios'],
+    // 配置 vendor 可防止重复打包插件
+    vendor: ['axios', '~/plugins/element-ui.js', '~/plugins/vue-particles.js', 'kline'],
     /*
     ** Run ESLINT on save
     */
@@ -56,7 +57,13 @@ module.exports = {
   router: {
     middleware: ['i18n']
   },
-  plugins: ['~/plugins/i18n.js', { src: '~/plugins/element-ui.js', ssr: true }, { src: '~/plugins/vue-particles.js', ssr: false }],
+  /**
+   * plugins 介绍：
+   * type Array
+   * 类型 String or Object
+   * 若类型为Object 则拥有两个属性 src 和 ssr， src为文件路径， ssr为是否在服务端打包引入，默认为true
+   */
+  plugins: ['~/plugins/i18n.js', '~/plugins/element-ui.js', { src: '~/plugins/vue-particles.js', ssr: false }],
   babel: {
     "plugins": [["component", [
       {

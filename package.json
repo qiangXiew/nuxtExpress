@@ -21,6 +21,8 @@
     "express-session": "^1.15.6",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
+    "jquery": "^3.3.1",
+    "kline": "^1.1.8",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "log4js": "^2.5.3",
